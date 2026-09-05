@@ -1,10 +1,35 @@
-const btn = document.getElementById("menuBtn");
-const nav = document.getElementById("nav");
+const menuBtn =
+  document.getElementById("menuBtn");
 
-btn?.addEventListener("click", () => {
-  nav.classList.toggle("open");
-});
+const nav =
+  document.getElementById("nav");
 
-document.querySelectorAll(".nav a").forEach(link => {
-  link.addEventListener("click", () => nav.classList.remove("open"));
-});
+
+if (menuBtn && nav) {
+
+  menuBtn.addEventListener(
+    "click",
+    () => {
+
+      nav.classList.toggle("open");
+
+    }
+  );
+
+
+  document
+    .querySelectorAll(".nav a")
+    .forEach(link => {
+
+      link.addEventListener(
+        "click",
+        () => {
+
+          nav.classList.remove("open");
+
+        }
+      );
+
+    });
+
+}
