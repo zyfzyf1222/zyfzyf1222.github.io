@@ -3,70 +3,62 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-  <meta name="description"
-        content="张逸帆个人学术主页">
+  <meta
+    name="description"
+    content="张逸帆个人学术主页"
+  >
 
   <title>张逸帆 | Yifan Zhang</title>
 
-  <link rel="stylesheet"
-        href="styles.css">
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
 </head>
 
 
 <body>
 
 
-<!-- =========================
-     Navigation
-========================= -->
-
 <header class="site-header">
 
   <div class="container nav-wrap">
 
-    <a class="logo"
-       href="#home">
+    <a
+      class="logo"
+      href="#home"
+    >
       YZ.
     </a>
 
 
-    <nav class="nav"
-         id="nav">
+    <nav
+      class="nav"
+      id="nav"
+    >
 
-      <a href="#about">
-        关于我
+      <a href="#graduate">
+        硕士阶段
       </a>
 
-      <a href="#education">
-        教育经历
+      <a href="#undergraduate">
+        本科经历
       </a>
 
-      <a href="#projects">
-        科研项目
-      </a>
-
-      <a href="#awards">
-        荣誉奖项
-      </a>
-
-      <a href="#competitions">
-        竞赛经历
-      </a>
-
-      <a href="#skills">
-        技能
+      <a href="#certificates">
+        证书材料
       </a>
 
     </nav>
 
 
-    <button class="menu-btn"
-            id="menuBtn"
-            aria-label="打开菜单">
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="打开菜单"
+    >
       ☰
     </button>
 
@@ -79,127 +71,72 @@
 <main id="home">
 
 
-<!-- =========================
-     Hero
-========================= -->
+  <!-- =========================
+       首页
+  ========================== -->
 
-<section class="hero">
+  <section class="hero">
 
-  <div class="container hero-grid">
-
-
-    <!-- 左侧照片 -->
-
-    <aside class="profile-panel">
-
-      <div class="photo-frame">
-
-        <img
-          src="assets/profiles.jpg"
-          alt="张逸帆"
-          class="profile-photo">
-
-      </div>
+    <div class="container hero-grid">
 
 
-      <div class="profile-info">
+      <!-- 左侧个人照片 -->
 
-        <h2>
-          张逸帆
-        </h2>
+      <div class="profile-card">
 
-        <p class="profile-name-en">
-          Yifan Zhang
-        </p>
+        <div class="photo-frame">
 
+          <img
+            src="assets/profiles.jpg"
+            alt="张逸帆"
+            class="profile-photo"
+          >
 
-        <div class="profile-divider"></div>
-
-
-        <p class="profile-position">
-          西安电子科技大学
-        </p>
-
-        <p class="profile-sub">
-          硕士研究生 · 在读
-        </p>
+        </div>
 
 
-        <div class="profile-links">
+        <div class="profile-meta">
 
-          <a
-            href="https://github.com/zyfzyf1222"
-            target="_blank"
-            rel="noreferrer">
+          <h2>
+            张逸帆
+          </h2>
 
-            GitHub ↗
+          <p>
+            Yifan Zhang
+          </p>
 
-          </a>
+          <span>
+            西安电子科技大学 · 硕士研究生
+          </span>
 
         </div>
 
       </div>
 
-    </aside>
 
 
+      <!-- 右侧简介 -->
 
-    <!-- 右侧介绍 -->
+      <div class="hero-copy">
 
-    <div class="hero-copy">
-
-      <span class="badge">
-        Master's Student
-      </span>
-
-
-      <h1>
-        你好，我是
-        <span>张逸帆</span>
-      </h1>
+        <span class="badge">
+          M.S. Student · Xidian University
+        </span>
 
 
-      <p class="hero-en">
-
-        M.S. Student · Xidian University
-
-      </p>
-
-
-      <p class="hero-desc">
-
-        现为西安电子科技大学硕士研究生，
-        本科毕业于安徽工业大学通信工程专业。
-        目前主要关注无线通信、车路协同、
-        无线定位、多模态感知与智能通信系统等研究方向。
-
-      </p>
+        <h1>
+          你好，我是
+          <span>张逸帆</span>
+        </h1>
 
 
-      <div class="hero-actions">
+        <p class="hero-desc">
 
-        <a class="btn primary"
-           href="#projects">
+          现为西安电子科技大学硕士研究生，
+          本科毕业于安徽工业大学通信工程专业。
+          目前主要关注无线通信、车路协同、
+          无线定位与多模态智能感知。
 
-          查看科研项目
-
-        </a>
-
-
-        <a class="btn secondary"
-           href="#education">
-
-          教育经历
-
-        </a>
-
-      </div>
-
-
-      <div class="research-block">
-
-        <p class="research-title">
-          Research Interests
         </p>
 
 
@@ -225,9 +162,27 @@
             Multimodal Perception
           </span>
 
-          <span>
-            Edge AI
-          </span>
+        </div>
+
+
+        <div class="hero-actions">
+
+          <a
+            class="btn primary"
+            href="#graduate"
+          >
+            硕士阶段研究
+          </a>
+
+
+          <a
+            class="btn ghost"
+            href="https://github.com/zyfzyf1222"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub ↗
+          </a>
 
         </div>
 
@@ -235,393 +190,280 @@
 
     </div>
 
-  </div>
-
-</section>
+  </section>
 
 
 
-<!-- =========================
-     About
-========================= -->
+  <!-- =========================
+       硕士阶段
+  ========================== -->
 
-<section id="about"
-         class="section">
+  <section
+    id="graduate"
+    class="section"
+  >
 
-  <div class="container">
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        ABOUT
-      </span>
-
-      <h2>
-        关于我
-      </h2>
-
-    </div>
+    <div class="container">
 
 
-    <div class="about-card">
+      <div class="section-head">
 
-      <p>
+        <div>
 
-        现为西安电子科技大学硕士研究生。
-        我的研究兴趣主要集中于无线通信与智能感知的交叉方向，
-        包括车路协同通信、无线定位、
-        视觉与无线多模态融合、无线电地图以及边缘智能等。
+          <span class="section-kicker">
+            GRADUATE RESEARCH
+          </span>
 
-      </p>
+          <h2>
+            硕士阶段研究
+          </h2>
+
+        </div>
 
 
-      <p>
+        <p>
+          当前主要研究工作
+        </p>
 
-        本科就读于安徽工业大学通信工程专业。
-        本科期间参与多项科研项目、电子信息类学科竞赛及学生工作，
-        并积累了无线通信、深度学习、
-        计算机视觉与嵌入式系统等方面的实践经验。
-
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
+      </div>
 
 
 
-<!-- =========================
-     Education
-========================= -->
-
-<section id="education"
-         class="section alt">
-
-  <div class="container">
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        EDUCATION
-      </span>
-
-      <h2>
-        教育经历
-      </h2>
-
-    </div>
+      <div class="research-list">
 
 
+        <!-- 研究 1 -->
 
-    <div class="education-grid">
+        <article class="research-item featured">
+
+          <div class="research-no">
+            01
+          </div>
 
 
-      <!-- 硕士 -->
+          <div class="research-body">
 
-      <article class="education-card current">
+            <span class="research-type">
 
-        <div class="edu-top">
+              V2I · MULTIMODAL LOCALIZATION
 
-          <div>
-
-            <span class="edu-level">
-              MASTER'S DEGREE
             </span>
 
 
             <h3>
-              西安电子科技大学
+
+              Radio–Vision Fusion for
+              Cooperative V2I Localization
+
             </h3>
 
 
-            <p class="edu-en">
-              Xidian University
+            <p>
+
+              面向合作式车路通信场景，
+              研究视觉与无线信息在车辆定位中的互补关系，
+              重点关注视觉困难样本、长尾定位误差
+              以及可靠性驱动的自适应融合。
+
             </p>
+
+
+            <div class="mini-tags">
+
+              <span>V2I</span>
+              <span>Vision</span>
+              <span>RF</span>
+              <span>Fusion</span>
+
+            </div>
 
           </div>
 
-
-          <span class="edu-status">
-            在读
-          </span>
-
-        </div>
-
-
-        <div class="edu-divider"></div>
-
-
-        <p class="edu-major">
-
-          硕士研究生
-
-        </p>
-
-
-        <p class="muted">
-
-          研究方向：无线通信、车路协同、
-          无线定位与多模态智能感知
-
-        </p>
-
-      </article>
+        </article>
 
 
 
-      <!-- 本科 -->
+        <!-- 研究 2 -->
 
-      <article class="education-card">
+        <article class="research-item">
 
-        <div class="edu-top">
+          <div class="research-no">
+            02
+          </div>
 
-          <div>
 
-            <span class="edu-level">
-              BACHELOR'S DEGREE
+          <div class="research-body">
+
+            <span class="research-type">
+
+              RADIO MAP · LOCALIZATION
+
             </span>
 
 
             <h3>
-              安徽工业大学
+
+              Single-RSU Radio Map Localization
+
             </h3>
 
 
-            <p class="edu-en">
-              Anhui University of Technology
+            <p>
+
+              面向城市峡谷环境，
+              研究单 RSU 条件下
+              基于角度、时延和功率特征的
+              无线电地图定位。
+
             </p>
 
+
+            <div class="mini-tags">
+
+              <span>Radio Map</span>
+              <span>AoA</span>
+              <span>Delay</span>
+              <span>Power</span>
+
+            </div>
+
           </div>
 
-        </div>
+        </article>
 
 
-        <div class="edu-divider"></div>
+
+        <!-- 研究 3 -->
+
+        <article class="research-item">
+
+          <div class="research-no">
+            03
+          </div>
 
 
-        <p class="edu-major">
+          <div class="research-body">
 
-          电气与信息工程学院 · 通信工程
+            <span class="research-type">
 
-        </p>
+              PHYSICAL AI · WIRELESS CHANNEL
+
+            </span>
 
 
-        <p class="muted">
+            <h3>
 
-          本科期间参与科研项目、
-          学科竞赛及学生工作。
+              Wireless Channel Generation
 
-        </p>
+            </h3>
 
-      </article>
 
+            <p>
+
+              探索无线信道表示、生成与预测方法，
+              并参与 Physical AI
+              无线信道生成相关研究与竞赛实践。
+
+            </p>
+
+
+            <div class="mini-tags">
+
+              <span>Wireless Channel</span>
+              <span>Generation</span>
+              <span>AI</span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+      </div>
 
     </div>
 
-  </div>
-
-</section>
+  </section>
 
 
 
-<!-- =========================
-     Research Projects
-========================= -->
+  <!-- =========================
+       本科经历
+  ========================== -->
 
-<section id="projects"
-         class="section">
+  <section
+    id="undergraduate"
+    class="section alt"
+  >
 
-  <div class="container">
-
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        SELECTED RESEARCH
-      </span>
-
-      <h2>
-        科研项目
-      </h2>
-
-      <p>
-        当前主要参与和推进的研究方向。
-      </p>
-
-    </div>
+    <div class="container">
 
 
+      <div class="section-head">
 
-    <div class="project-grid">
+        <div>
 
+          <span class="section-kicker">
+            UNDERGRADUATE
+          </span>
 
-      <!-- Project 1 -->
+          <h2>
+            本科经历
+          </h2>
 
-      <article class="project-card featured">
-
-        <div class="project-index">
-          01
         </div>
 
 
-        <div class="project-content">
+        <p>
+          安徽工业大学 · 通信工程
+        </p>
 
-          <span class="project-type">
+      </div>
 
-            V2I · MULTIMODAL LOCALIZATION
 
+
+      <div class="undergrad-grid">
+
+
+        <!-- 本科教育 -->
+
+        <article class="undergrad-card">
+
+          <span class="card-label">
+            EDUCATION
           </span>
 
 
           <h3>
-
-            Radio–Vision Fusion for
-            Cooperative V2I Localization
-
+            安徽工业大学
           </h3>
 
 
-          <p>
+          <p class="strong">
 
-            面向合作式车路通信场景，
-            研究视觉与无线信息在车辆定位中的互补关系，
-            重点关注视觉困难样本、
-            长尾定位误差以及可靠性驱动的自适应融合。
+            电气与信息工程学院 · 通信工程
 
           </p>
 
 
-          <div class="project-tags">
-
-            <span>V2I</span>
-            <span>Vision</span>
-            <span>RF</span>
-            <span>Fusion</span>
-
-          </div>
-
-        </div>
-
-      </article>
-
-
-
-      <!-- Project 2 -->
-
-      <article class="project-card">
-
-        <div class="project-index">
-          02
-        </div>
-
-
-        <div class="project-content">
-
-          <span class="project-type">
-
-            RADIO MAP · LOCALIZATION
-
-          </span>
-
-
-          <h3>
-
-            Single-RSU Radio Map Localization
-
-          </h3>
-
-
           <p>
 
-            面向城市峡谷环境，
-            研究单 RSU 条件下基于角度、
-            时延与功率等无线特征的
-            小尺度无线电地图定位方法。
+            本科期间参与科研项目、
+            电子信息类学科竞赛及学生工作。
 
           </p>
 
-
-          <div class="project-tags">
-
-            <span>Radio Map</span>
-            <span>AoA</span>
-            <span>Delay</span>
-            <span>Power</span>
-
-          </div>
-
-        </div>
-
-      </article>
+        </article>
 
 
 
-      <!-- Project 3 -->
+        <!-- 本科毕设 -->
 
-      <article class="project-card">
+        <article class="undergrad-card">
 
-        <div class="project-index">
-          03
-        </div>
-
-
-        <div class="project-content">
-
-          <span class="project-type">
-
-            PHYSICAL AI · WIRELESS CHANNEL
-
-          </span>
-
-
-          <h3>
-
-            Wireless Channel Generation
-
-          </h3>
-
-
-          <p>
-
-            探索无线信道表示、
-            生成与预测方法，
-            并参与 Physical AI
-            无线信道生成相关竞赛实践。
-
-          </p>
-
-
-          <div class="project-tags">
-
-            <span>Channel</span>
-            <span>Generation</span>
-            <span>AI</span>
-
-          </div>
-
-        </div>
-
-      </article>
-
-
-
-      <!-- Project 4 -->
-
-      <article class="project-card">
-
-        <div class="project-index">
-          04
-        </div>
-
-
-        <div class="project-content">
-
-          <span class="project-type">
-
-            COMPUTER VISION
-
+          <span class="card-label">
+            THESIS
           </span>
 
 
@@ -634,500 +476,381 @@
 
           <p>
 
-            本科毕业设计方向，
+            本科毕业设计，
             研究无配对图像到图像翻译
-            与视觉艺术风格迁移方法。
+            与视觉艺术风格迁移。
 
           </p>
 
+        </article>
 
-          <div class="project-tags">
 
-            <span>CycleGAN</span>
-            <span>Image Translation</span>
-            <span>Computer Vision</span>
+
+        <!-- 荣誉 -->
+
+        <article class="undergrad-card wide">
+
+          <span class="card-label">
+            HONORS
+          </span>
+
+
+          <div class="compact-columns">
+
+            <ul>
+
+              <li>
+                校三好学生
+              </li>
+
+              <li>
+                优秀学生干部
+              </li>
+
+              <li>
+                优秀团干
+              </li>
+
+              <li>
+                连续三年校优秀奖学金
+              </li>
+
+            </ul>
+
+
+            <ul>
+
+              <li>
+                “江苏森禾”企业奖学金
+              </li>
+
+              <li>
+                “和利时”企业一等奖学金
+              </li>
+
+              <li>
+                CET-4 / CET-6
+              </li>
+
+              <li>
+                推免至西安电子科技大学
+              </li>
+
+            </ul>
 
           </div>
 
-        </div>
+        </article>
 
-      </article>
 
+
+        <!-- 竞赛 -->
+
+        <article class="undergrad-card wide">
+
+          <span class="card-label">
+            COMPETITIONS
+          </span>
+
+
+          <div class="competition-lines">
+
+
+            <div>
+
+              <strong>
+                全国大学生智能汽车竞赛
+              </strong>
+
+              <span>
+                国一 / 省一 / 省二
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <strong>
+                CIMC 第19届竞赛
+              </strong>
+
+              <span>
+                国一 / 省特
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <strong>
+                “大唐杯”新一代信息通信技术大赛
+              </strong>
+
+              <span>
+                国二
+              </span>
+
+            </div>
+
+
+            <div>
+
+              <strong>
+                2025 安徽省创新类竞赛
+              </strong>
+
+              <span>
+                省铜
+              </span>
+
+            </div>
+
+
+          </div>
+
+        </article>
+
+
+      </div>
 
     </div>
 
-  </div>
-
-</section>
+  </section>
 
 
 
-<!-- =========================
-     Awards
-========================= -->
+  <!-- =========================
+       证书
+  ========================== -->
 
-<section id="awards"
-         class="section alt">
+  <section
+    id="certificates"
+    class="section"
+  >
 
-  <div class="container">
-
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        HONORS & AWARDS
-      </span>
-
-      <h2>
-        本科荣誉与奖项
-      </h2>
-
-      <p>
-        点击“查看证书”可打开对应 PDF。
-      </p>
-
-    </div>
+    <div class="container">
 
 
-
-    <div class="award-list">
-
-
-      <article class="award-row">
+      <div class="section-head">
 
         <div>
 
-          <h3>
-            校三好学生
-          </h3>
+          <span class="section-kicker">
+            CERTIFICATES
+          </span>
 
-          <p>
-            Undergraduate Honor
-          </p>
+          <h2>
+            证书与材料
+          </h2>
 
         </div>
+
+
+        <p>
+          点击可直接查看 PDF
+        </p>
+
+      </div>
+
+
+
+      <div class="certificate-grid">
 
 
         <a
           href="certificates/merit_student.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            校三好学生
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            优秀学生干部
-          </h3>
-
-          <p>
-            Undergraduate Honor
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/outstanding_student_leader.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            优秀学生干部
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            优秀团干
-          </h3>
-
-          <p>
-            Undergraduate Honor
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/outstanding_youth_leader.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            优秀团干
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            校优秀奖学金
-          </h3>
-
-          <p>
-            连续三年
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/university_scholarship.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            校优秀奖学金
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            “江苏森禾”企业奖学金
-          </h3>
-
-          <p>
-            Enterprise Scholarship
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/jiangsu_senhe_scholarship.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            江苏森禾奖学金
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            “和利时”企业一等奖学金
-          </h3>
-
-          <p>
-            一等奖 · 全校 4 人
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/hollysys_first_scholarship.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            和利时一等奖学金
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            CET-4 / CET-6
-          </h3>
-
-          <p>
-            College English Test
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/cet.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            CET-4 / CET-6
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="award-row">
-
-        <div>
-
-          <h3>
-            推免资格
-          </h3>
-
-          <p>
-            Recommended Graduate Admission
-          </p>
-
-        </div>
 
 
         <a
           href="certificates/graduate_recommendation.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            推免材料
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =========================
-     Competitions
-========================= -->
-
-<section id="competitions"
-         class="section">
-
-  <div class="container">
-
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        COMPETITIONS
-      </span>
-
-      <h2>
-        本科竞赛经历
-      </h2>
-
-    </div>
-
-
-
-    <div class="competition-grid">
-
-
-      <article class="competition-card">
-
-        <span class="rank">
-          全国一等奖
-        </span>
-
-        <h3>
-          第20届全国大学生智能汽车竞赛
-        </h3>
 
 
         <a
           href="certificates/smart_car_national_first.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            智能汽车竞赛国一
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="competition-card">
-
-        <span class="rank">
-          省级一等奖 / 二等奖
-        </span>
-
-        <h3>
-          第20届全国大学生智能汽车竞赛
-        </h3>
 
 
         <a
           href="certificates/smart_car_provincial.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            智能汽车竞赛省级奖项
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="competition-card">
-
-        <span class="rank">
-          全国一等奖 / 省特等奖
-        </span>
-
-        <h3>
-          CIMC 第19届竞赛
-        </h3>
 
 
         <a
           href="certificates/cimc_19.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            CIMC 第19届
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="competition-card">
-
-        <span class="rank">
-          全国二等奖
-        </span>
-
-        <h3>
-
-          “大唐杯”
-          全国大学生新一代信息通信技术大赛
-
-        </h3>
 
 
         <a
           href="certificates/datacom_cup_national_second.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            大唐杯国二
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
-
-      </article>
-
-
-
-      <article class="competition-card">
-
-        <span class="rank">
-          省级铜奖
-        </span>
-
-        <h3>
-          2025 安徽省创新类竞赛
-        </h3>
 
 
         <a
           href="certificates/anhui_innovation_bronze_2025.pdf"
-          target="_blank">
+          target="_blank"
+        >
+          <span>
+            2025 安徽创新赛省铜
+          </span>
 
-          查看证书 ↗
-
+          <b>
+            PDF ↗
+          </b>
         </a>
 
-      </article>
 
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- =========================
-     Skills
-========================= -->
-
-<section id="skills"
-         class="section alt">
-
-  <div class="container">
-
-
-    <div class="section-head">
-
-      <span class="section-kicker">
-        SKILLS
-      </span>
-
-      <h2>
-        技能与工具
-      </h2>
+      </div>
 
     </div>
 
-
-
-    <div class="skill-cloud">
-
-      <span>Python</span>
-
-      <span>PyTorch</span>
-
-      <span>MATLAB</span>
-
-      <span>C / C++</span>
-
-      <span>Embedded Systems</span>
-
-      <span>Wireless Communications</span>
-
-      <span>Computer Vision</span>
-
-      <span>Machine Learning</span>
-
-      <span>LaTeX</span>
-
-      <span>Git / GitHub</span>
-
-    </div>
-
-  </div>
-
-</section>
+  </section>
 
 
 </main>
 
 
-
-<!-- =========================
-     Footer
-========================= -->
 
 <footer class="footer">
 
@@ -1138,12 +861,13 @@
     </span>
 
     <span>
-      Xidian University
+      Xidian University · GitHub Pages
     </span>
 
   </div>
 
 </footer>
+
 
 
 <script src="script.js"></script>
